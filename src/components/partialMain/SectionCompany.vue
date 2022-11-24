@@ -11,24 +11,32 @@ export default {
         <div class="the-company">
           <h6>ABOUT THE NETWORK</h6>
           <h2><span>The</span> Company</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate magnam dicta vero est porro quos earum facilis, ducimus mollitia necessitatibus, nam commodi impedit architecto inventore sit quibusdam nemo minus voluptates?</p>
+          <p>For 12 years we have been providing audit and warranty, financial advice, risk advice, taxes and related services to select clients.</p>
         </div>
 
         <div class="focus">
           <div class="skill">
-            <h4>Tradition</h4>
+            <div class="icon">
+              <i class="fa-solid fa-medal fa-lg"></i><h4>Tradition</h4>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptas</p>
           </div>
           <div class="skill">
-            <h4>Security</h4>
+            <div class="icon">
+              <i class="fa-solid fa-lock fa-lg"></i><h4>Security</h4>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptas</p>
           </div>
           <div class="skill">
-            <h4>Certificate</h4>
+            <div class="icon">
+              <i class="fa-solid fa-pen-to-square fa-lg"></i><h4>Certificate</h4>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptas</p>
           </div>
           <div class="skill">
-            <h4>Expertise</h4>
+            <div class="icon">
+              <i class="fa-solid fa-graduation-cap fa-lg"></i><h4>Expertise</h4>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptas</p>
           </div>
         </div>
@@ -62,10 +70,25 @@ export default {
     display: flex;
     justify-content: end;
     align-items: center;
+    p{
+      color: $word;
+    }
+    h2,h4{
+      color: #fff;
+      span{
+        padding: 0 10px;
+        background-color: darken($primary, 17%);
+      }
+    }
+    h6{
+      color: $primary;
+    }
+    *{
+      padding-bottom: 10px;
+    }
     .info-company{
       width: 70%;
       height: 80%;
-      background-color: aqua;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -76,6 +99,17 @@ export default {
         .skill{
           width: calc(100% / 2);
           margin-bottom: 10px;
+          .icon{
+            line-height: 30px;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            i{
+              margin-bottom: 0.5rem;
+              margin-right: 0.5rem;
+              color: $primary;
+            }
+          }
         }
       }
     }
