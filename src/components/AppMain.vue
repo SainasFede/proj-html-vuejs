@@ -1,12 +1,14 @@
 <script>
 
 import SectionServices from './partialMain/SectionServices.vue';
+import SectionCompany from './partialMain/SectionCompany.vue';
 import { store } from '../data/store';
 
 export default {
   name: 'AppMain',
   components:{
     SectionServices,
+    SectionCompany,
   },
   data(){
     return {
@@ -18,6 +20,7 @@ export default {
 
 <template>
   <SectionServices />
+  <SectionCompany />
 </template>
 
 
