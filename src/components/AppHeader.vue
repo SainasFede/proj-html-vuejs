@@ -29,23 +29,32 @@ export default {
 @use '../src/assets/style/vars.scss' as *;
 @use '../src/assets/style/general.scss';
   header{
-    height: 80px;
+    height: 50px;
     background-color: #122439;
     li,span,i,p{
       color: $word;
     }
-    .container,.info,.orari,.info ul{
-        width: 100%;
+    .container{
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      align-items: center;
+      .orari, .info ul{
         height: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-    }
-    .info ul{
-      list-style: none;
-      li{
+        list-style: none;
+        p, li{
+          margin-bottom: 0px;
+        }
+      }
+      .info{
+        height: 100%;
+      }
+      .info ul li{
         padding: 0 10px;
       }
+
     }
   }
   
