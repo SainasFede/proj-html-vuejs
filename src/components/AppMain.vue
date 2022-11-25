@@ -2,6 +2,7 @@
 
 import SectionServices from './partialMain/SectionServices.vue';
 import SectionCompany from './partialMain/SectionCompany.vue';
+import SectionProject from './partialMain/SectionProject.vue';
 import { store } from '../data/store';
 
 export default {
@@ -9,6 +10,7 @@ export default {
   components:{
     SectionServices,
     SectionCompany,
+    SectionProject,
   },
   data(){
     return {
@@ -21,6 +23,7 @@ export default {
 <template>
   <SectionServices />
   <SectionCompany />
+  <SectionProject />
 </template>
 
 

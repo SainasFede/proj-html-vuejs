@@ -42,7 +42,7 @@ export default {
         </div>
 
         <div class="input">
-          <button>GET IN TOUCH</button> <button>READ MORE</button>
+          <button class="btn primary">GET IN TOUCH</button> <button class="btn secondary">READ MORE</button>
         </div>
 
       </div>
@@ -76,7 +76,7 @@ export default {
     h2,h4{
       color: #fff;
       span{
-        padding: 0 10px;
+        padding: 0 10px 5px;
         background-color: darken($primary, 17%);
       }
     }
@@ -87,12 +87,25 @@ export default {
       padding-bottom: 10px;
     }
     .info-company{
-      width: 70%;
+      width: 75%;
       height: 80%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 55px;
+      .input{
+        .secondary{
+          color: #fff;
+          border: 1px solid $primary;
+          background-color: #111117;
+          padding: 8px 30px;
+        }
+      }.primary{
+        color: #fff;
+        background-color: $primary;
+        margin-right: 10px;
+        padding: 8px 30px;
+      }
       .focus{
         display: flex;
         flex-wrap: wrap;

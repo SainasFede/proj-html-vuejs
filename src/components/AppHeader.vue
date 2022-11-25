@@ -53,6 +53,7 @@ export default {
       }
       .info ul li{
         padding: 0 10px;
+        cursor: pointer;
       }
 
     }

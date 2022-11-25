@@ -32,6 +32,7 @@ export default {
         v-for="(card, index) in store.services" 
         :key="index"
         :icon="card.icon"
+        :arrow="card.arrow"
         :service="card.service"
         :description="card.description" />
       </div>
@@ -72,8 +73,8 @@ section{
     }
     span{
       color: $primary;
-      background-color: lighten($primary, 70%);
-      padding: 0 10px;
+      background-color: lighten($back2, 25%);
+      padding: 0 10px 5px;
     }
   }
   .sf-row{
