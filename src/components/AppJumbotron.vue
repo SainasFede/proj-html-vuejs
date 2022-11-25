@@ -14,7 +14,6 @@ export default {
 
 <template>
   <div class="jumbotron">
-    <img class="duo" src="../assets/img/bg-parallax.png" alt="">
     <div class="container h-100">
 
       <div class="row d-flex nav-logo">
@@ -49,12 +48,11 @@ export default {
     width: 100%;
     padding: 20px;
     position: relative;
-    img.duo{
-      position: absolute;
-      width: 120%;
-      top: -37px;
-      left: -150px;
-    }
+    background-image: url('../assets/img/bg-parallax.png');
+    background-size: 150%;
+    background-position-x: -470px;
+    background-position-y: -100px;
+  }
     p{
       color: $word;
     }
@@ -64,7 +62,6 @@ export default {
         background-color: lighten($back2, 25%);
         padding: 0 10px 5px;
       }
-    }
     }
   .nav-logo{
     img{

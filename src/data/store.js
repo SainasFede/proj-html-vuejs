@@ -47,6 +47,24 @@ export const store = reactive({
   navheader:[
     'HOME', 'SERVICES', 'ABOUT', 'PROJECT', 'RESULTS'
   ],
+  results:[
+    {
+      number: 128,
+      argument: 'Certifications',
+    },
+    {
+      number: 230,
+      argument: 'Employees',
+    },
+    {
+      number: 517,
+      argument: 'Customers'
+    },
+    {
+      number: 94,
+      argument: 'Countries Served',
+    }
+  ],
   navprojects:[
     'ALL',
     'ISTITUTIONAL',
@@ -58,7 +76,7 @@ export const store = reactive({
   ],
   projects:[
     {
-      img: '../assets/img/project-1',
+      img: '../assets/img/project-1.jpg',
       arrow: 'fa-solid fa-arrow-right fa-lg',
       project: 'Academic professional program in social media',
       description: 'lorem ipsum dolor sit amet consectetur adipiscing',
