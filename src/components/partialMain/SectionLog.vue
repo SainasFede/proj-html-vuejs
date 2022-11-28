@@ -26,7 +26,7 @@ export default {
 
   .log{
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: $title1;
     ul{
       list-style: none;

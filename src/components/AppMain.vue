@@ -5,6 +5,7 @@ import SectionCompany from './partialMain/SectionCompany.vue';
 import SectionProject from './partialMain/SectionProject.vue';
 import SectionResults from './partialMain/SectionResults.vue';
 import SectionLog from './partialMain/SectionLog.vue';
+import SectionForm from './partialMain/SectionForm.vue';
 import { store } from '../data/store';
 
 export default {
@@ -14,7 +15,8 @@ export default {
     SectionCompany,
     SectionProject,
     SectionResults,
-    SectionLog
+    SectionLog,
+    SectionForm
   },
   data(){
     return {
@@ -30,6 +32,7 @@ export default {
   <SectionProject />
   <SectionResults />
   <SectionLog />
+  <SectionForm />
 </template>
 
 

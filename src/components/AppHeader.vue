@@ -29,10 +29,10 @@ export default {
 @use '../src/assets/style/vars.scss' as *;
 @use '../src/assets/style/general.scss';
   header{
-    height: 50px;
+    height: 80px;
     background-color: #122439;
     li,span,i,p{
-      color: $word;
+      color: #bcbcbc;
     }
     .container{
       display: flex;

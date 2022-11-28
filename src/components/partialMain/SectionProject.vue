@@ -107,8 +107,6 @@ export default {
             color: $word;
             &:hover{
               color: $primary;
-              background-color: lighten($back2, 25%);
-              padding: 2px 6px;
             }
           }
         }
