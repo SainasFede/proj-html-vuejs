@@ -78,7 +78,6 @@ export default {
     background-color: $title1;
     color: #eef1ed;
     .secondary{
-      margin-left: 10px;
       color: #fff;
       border: 1px solid $primary;
       background-color: #111117;
@@ -88,6 +87,9 @@ export default {
       li{
         padding-bottom: 10px;
         cursor: pointer;
+        span{
+          margin-left: 10px;
+        }
       }
     }
     ul{
@@ -110,6 +112,8 @@ export default {
           #logo{
             width: 200px;
           }
+          background-color: $back;
+          border-radius: 10px;
         }
       }
     }

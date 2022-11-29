@@ -30,6 +30,8 @@ export default {
     background-color: $title1;
     ul{
       list-style: none;
+      margin: 0px;
+      padding: 0;
       li{
         padding: 0 30px;
         img{
